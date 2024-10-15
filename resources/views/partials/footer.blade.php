@@ -6,10 +6,10 @@
             <div class="flex flex-col">
 
                 <a href="{{ route('home') }}" class="pl-1">
-                    <span class="font-sans text-lg font-extrabold text-blue-600">Truthbound</span>
+                    <span class="font-sans text-lg font-extrabold text-red-800">Veritus</span>
                 </a>
                 <p class="text-gray-600 font-title text-sm pl-1 font-semibold dark:text-gray-200">
-                    DePIN Data Asserter
+                    Move Optimistic Oracle
                 </p>
                 <p class="text-gray-600 font-title uppercase text-xs pl-1 mt-6 font-semibold dark:text-gray-200">
                     Powered by Aptos
@@ -23,11 +23,11 @@
                     <div>
                         <ul class="mt-4 space-y-4 text-md">
 
-                            <li>
-                                <a href="{{ route('about') }}" class="text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-400">
-                                    About
+                            {{-- <li>
+                                <a href="{{ route('assert_data') }}" class="text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-400">
+                                    Assert Data
                                 </a>
-                            </li>
+                            </li> --}}
 
                             {{-- <li>
                                 <a href="{{ route('about') }}" class="text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-400">
@@ -45,8 +45,8 @@
                         <ul class="mt-4 space-y-4 text-md">
 
                             <li>
-                                <a href="{{ route('assert_data') }}" class="text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-400">
-                                    Assert Data
+                                <a href="{{ route('about') }}" class="text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-400">
+                                    About
                                 </a>
                             </li>
 
