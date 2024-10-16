@@ -16,6 +16,10 @@
                         About
                     </a>
 
+                    <a href="{{ route('guide') }}" class="{{ \Request::route()->getName() == 'guide' ? 'border-red-900 text-red-900 font-semibold' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-red-900' }} inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium hover:border-red-900">
+                        How it works
+                    </a>
+
                     {{-- <a href="{{ route('assert_data') }}" class="{{ \Request::route()->getName() == 'assert_data' ? 'border-red-900 text-red-900 font-semibold' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-red-900' }} inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium hover:border-red-900">
                         Assert Data
                     </a> --}}
